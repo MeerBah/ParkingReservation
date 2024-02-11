@@ -57,6 +57,14 @@ class ParkingController extends Controller
 
     public function paymentPage(Request $request)
     {
+        $this->validate($request, [
+            'parking' => 'required',
+            'vehicle' => 'required',
+            'time' => 'required',
+            'date' => 'required',
+            'phone' => 'required',
+        ]);
+
         $parking = $request['parking'];
         $vehicle = $request['vehicle'];
         $time = $request['time_id'];
