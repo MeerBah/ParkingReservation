@@ -1,3 +1,12 @@
+<b><u>Installation</u></b>
+<p>1) Clone the project</p>
+<p>2) Create database with name: todak</p>
+<p>3) Run command: composer update</p>
+<p>4) Run command: php artisan migrate</p>
+<p>5) Run command: php artisan db:seed</p>
+<p>6) Run command: php artisan generate:key</p>
+<p>7) Run command: php artisan serve</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
