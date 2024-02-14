@@ -3,10 +3,10 @@
 <p>2) Duplicate file .env.example and rename it to: .env</p>
 <p>3) Change "DB_DATABASE=laravel" to "DB_DATABASE=todak" in .env file</p>
 <p>4) Create database with name: todak</p>
-<p>5) Run command: composer update</p>
+<p>5) Run command: composer install</p>
 <p>6) Run command: php artisan migrate</p>
 <p>7) Run command: php artisan db:seed</p>
-<p>8) Run command: php artisan generate:key</p>
+<p>8) Run command: php artisan key:generate</p>
 <p>9) Run command: php artisan serve</p>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
