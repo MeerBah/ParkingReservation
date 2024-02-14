@@ -60,8 +60,6 @@ class ParkingController extends Controller
         $this->validate($request, [
             'parking' => 'required',
             'vehicle' => 'required',
-            'time' => 'required',
-            'date' => 'required',
             'phone' => 'required',
         ]);
 
